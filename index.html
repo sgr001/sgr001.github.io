@@ -41,12 +41,11 @@
 
     <script>
       // Replace with your own publishable key: https://dashboard.stripe.com/test/apikeys
-      var PUBLISHABLE_KEY = "pk_live_6K1O3gCgeFVx7Cu6p8MH3WrY
-";
+      var PUBLISHABLE_KEY = "pk_test_ZH2O41uhiq4gnRHvA6wHVbdA";
       // Replace with the domain you want your users to be redirected back to after payment
-      var DOMAIN = location.href.replace(/[^/]*$/, "");
+      var DOMAIN = location.href.replace(/[^/]*$/, "http://smartguard.repair/success");
 
-      if (PUBLISHABLE_KEY === "pk_live_6K1O3gCgeFVx7Cu6p8MH3WrY") {
+      if (PUBLISHABLE_KEY === "pk_test_ZH2O41uhiq4gnRHvA6wHVbdA") {
         console.log(
           "Replace the hardcoded publishable key with your own publishable key: https://dashboard.stripe.com/test/apikeys"
         );
