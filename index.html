@@ -2,8 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Stripe Payment Page Recipe</title>
-    <meta name="description" content="A demo of Stripe Payment Intents" />
+    <title>Smart Guard Customer Plan Selection</title>
+    <meta name="description" content="Smart Guard Customer signup" />
 
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="css/normalize.css" />
@@ -30,7 +30,7 @@
             <button data-plan-id="plan_GVHfsNtnONL5zX">
               Monthly £10 per month 
             </button>
-			<button data-plan-id="plan_GVHfsNtnONL5zX">
+			<button data-plan-id="plan_GY3q9yRaOKfbHN">
               Quarterly £30 per quarter
             </button>
           </section>
@@ -44,11 +44,11 @@
 
     <script>
       // Replace with your own publishable key: https://dashboard.stripe.com/test/apikeys
-      var PUBLISHABLE_KEY = "pk_test_ZH2O41uhiq4gnRHvA6wHVbdA";
+      var PUBLISHABLE_KEY = "pk_live_6K1O3gCgeFVx7Cu6p8MH3WrY";
       // Replace with the domain you want your users to be redirected back to after payment
       var DOMAIN = location.href.replace(/[^/]*$/, "http://smartguard.repair/success");
 
-      if (PUBLISHABLE_KEY === "pk_test_ZH2O41uhiq4gnRHvA6wHVbdA") {
+      if (PUBLISHABLE_KEY === "pk_live_6K1O3gCgeFVx7Cu6p8MH3WrY") {
         console.log(
           "Replace the hardcoded publishable key with your own publishable key: https://dashboard.stripe.com/test/apikeys"
         );
