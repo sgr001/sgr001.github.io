@@ -359,7 +359,7 @@ pre {
 :root {
   --accent-color: #ed5f74;
   --headline-color: var(--accent-color);
-  --logo-image: url("https://storage.googleapis.com/stripe-sample-images/logo-pasha.svg");
+  --logo-image: url("https://d1wqzb5bdbcre6.cloudfront.net/1e9243d6c358342db63816ca720dcc5235a785bb/68747470733a2f2f66696c65732e7374726970652e636f6d2f66696c65732f665f746573745f7352684c7645694658564a746a4751714f6e4f4251676737");
 }
 
 .pasha-image-stack {
